@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { useState } from 'react'
 import './ClientList.css'
 
 
@@ -15,9 +16,9 @@ function List (){
 
     return <div>
         {clients.map((obj) => {
-            return <div className="lineClients">
+            return <div className="lineClients" key={obj.id} >
             <div className="imgClients">
-              <img src={obj.img} className='perfil' />
+              <img src={obj.img} className='perfil' alt="imgem do usuário"/>
             </div>
             <div className="idClients">
               <p> {obj.name}</p>
