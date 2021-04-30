@@ -62,5 +62,9 @@ body{
         font-size: 0.8rem;
         margin-right: 10px;
     }
+    body{
+        justify-content: none;
+        display: block;
+    }
 }
     
