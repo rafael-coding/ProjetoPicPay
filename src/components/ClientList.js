@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
-import './ClientList.css'
+//import './ClientList.css'
+import '../css/main.css'
 
 
 function List (){
