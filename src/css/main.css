@@ -52,6 +52,91 @@ body{
     justify-content: initial;
     font-size: 1rem;
 }
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 230px;
+    background-color: #ffff;
+}
+
+.modalName{
+    display: flex;
+    color: #ffff;
+    background-color:#474971;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: normal;
+}
+
+.modalName p{
+    font-size: 1.2rem;
+}
+
+.modalName span{
+    color: yellow;
+}
+
+.modalName button{
+    background-color: transparent;
+    border: none;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.modalPayment{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalPayment input{
+    width: 60%;
+    font-size: 1.2rem;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 4px;
+}
+
+.PaymentModalError{
+    color: red;
+    display: none;
+}
+
+.selectedCard{
+    width: 60%;
+    font-size: 1.2rem;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 3px 0;
+    margin-top: 15px;
+}
+
+.btnPayment{
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 3px;
+}
+
+.btnPayment:hover{
+    background-color: #6e71ac;
+    transition: 0.3s;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+}
+
+
 
 @media (max-width: 560px){
     .perfil{
